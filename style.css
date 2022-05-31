@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding-top: 5%;
+    
+}
+
+#time-text{
+    font-size: 6rem;
+    padding-left: 5rem;
+    color:#D56939;
+}
+
+#buttons{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button-area{
+    
+    font-size:x-large;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#353535;
+    background-clip:content-box;
+    padding:5px;
+    border:2px solid #353535;
+    color: grey;
+}
+
+#lap-area{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    justify-content: space-between;
+    height:400px;
+    width: 500px;
+}
+
+#lap-area::-webkit-scrollbar{
+    display: none;
+}
+
+hr{
+    size: 10px;
+    height: 0%;
+    flex:0 0 100%;
+    border: 1px solid #353535;
+}
+
+p{
+    color:grey;
+    font-size: x-large;
+}
+
